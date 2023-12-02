@@ -21,6 +21,7 @@ It is important to note that our machine learning model can be executed entirely
 - Full-sized breadboard (highly recommended)
 
 - Jumper Cables: May 20 each of M-F and M-M. There are lots of connections to be made!
+- 4.7k ohm resistor (2)
 
 ### Required Software
 
@@ -35,6 +36,29 @@ Lastly, everything needs to be done using CircuitPython. In my personal opinion,
 ## Wiring
 
 For this project, a substantial amount of wiring is required. It is highly recommended to use breadboards and jumper cables for a clean and organized setup.
+
+## Installation and Setup
+
+1. **Install CircuitPython on Your Board**: Start by installing CircuitPython on your Raspberry Pi Pico board.
+
+2. **Download Necessary Library Files**: Visit the CircuitPython website to download the necessary library files. Alternatively, you can obtain these files from the website and paste them into the "lib" folder on your board.
+
+3. **Copy Code Files**: Copy and paste the following files into your board:
+   - `code.py`
+   - `svm_min.py`
+
+## Running and Debugging
+
+To run and debug your code, follow these steps:
+
+1. Use an Integrated Development Environment (IDE), preferably Thonny IDE.
+
+2. Ensure that your Raspberry Pi Pico is connected to your computer.
+
+3. Refer to the connection details provided below for proper setup and debugging.
+
+Please note that you'll need to configure your IDE to work with your Raspberry Pi Pico for effective code development and debugging.
+
 
 ### LCD Connections
 
