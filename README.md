@@ -71,6 +71,9 @@ To run and debug your code, follow these steps:
 
 Please note that you'll need to configure your IDE to work with your Raspberry Pi Pico for effective code development and debugging.
 
+![Raspberry Pi Pico Pin Diagram ](https://example.com/raspberry-pi-pico.jpg)
+
+
 ## Wiring
 
 For this project, a substantial amount of wiring is required. It is highly recommended to use breadboards and jumper cables for a clean and organized setup.
@@ -90,7 +93,7 @@ For this project, a substantial amount of wiring is required. It is highly recom
 
 ### OV7670 Module Connections
 
-### OV7670 Module Connections
+
 
 | OV7670 Pin Name | Pi Pico Pin Name                    |
 |-----------------|------------------------------------|
