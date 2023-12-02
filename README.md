@@ -1,1 +1,2 @@
-# Handwritten-digit-classification-using-Raspberry-Pi-Pico-and-Machine-Learning
+# Handwritten Digit Classification using Raspberry Pi Pico and Machine Learning
+
