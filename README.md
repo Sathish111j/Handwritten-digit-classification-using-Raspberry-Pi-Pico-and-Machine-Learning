@@ -1,6 +1,6 @@
 # Table of Contents
 
-- [Creating a Handwritten Digit Classification System with Raspberry Pi Pico](#creating-a-handwritten-digit-classification-system-with-raspberry-pi-pico)
+  -   [Creating a Handwritten Digit Classification System with Raspberry Pi Pico](#creating-a-handwritten-digit-classification-system-with-raspberry-pi-pico)
   - [Project Overview](#project-overview)
   - [Project Inspiration](#project-inspiration)
   - [Required Hardware](#required-hardware)
@@ -86,14 +86,14 @@ For this project, a substantial amount of wiring is required. It is highly recom
 
 | Display Pin Number | Display Pin Name | Pi Pico Pins |
 |-------------------|------------------|--------------|
-| 2                 | VCC              | 5V           |
+| 2                 | VCC              | 5V (VBUS)        |
 | 1                 | GND              | GND          |
 | 10                | CS               | GP18         |
 | 6                 | RESET            | GP17         |
 | 7                 | A0               | GP16         |
 | 8                 | SDA              | GP11         |
 | 9                 | SCL              | GP10         |
-| 15                | LED              | 3.3V         |
+| 15                | LED +            | 3.3V         |
 
 ### OV7670 Module Connections
 
