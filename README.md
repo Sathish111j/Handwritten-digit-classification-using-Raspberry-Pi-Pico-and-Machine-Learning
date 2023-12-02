@@ -53,6 +53,12 @@ The project aims to display the classification results on the 128x160 TFT LCD, m
    - `code.py`
    - `svm_min.py`
 
+4. **Copy `arial.bdf` File**: Additionally, copy the `arial.bdf` font file to your board. This file is essential for displaying text on the LCD screen.
+
+This step ensures that you have all the required files in place for running your project successfully.
+
+
+
 ## Running and Debugging
 
 To run and debug your code, follow these steps:
