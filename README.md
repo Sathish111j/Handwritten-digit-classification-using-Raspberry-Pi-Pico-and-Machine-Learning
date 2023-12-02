@@ -71,7 +71,7 @@ To run and debug your code, follow these steps:
 
 Please note that you'll need to configure your IDE to work with your Raspberry Pi Pico for effective code development and debugging.
 
-![Raspberry Pi Pico Pin Diagram ](https://example.com/raspberry-pi-pico.jpg)
+![Raspberry Pi Pico Pin Diagram ]([https://example.com/raspberry-pi-pico.jpg](https://github.com/Sathish111j/Handwritten-digit-classification-using-Raspberry-Pi-Pico-and-Machine-Learning/blob/main/Raspberry%20Pi%20Pico%20Pin%20diagram.png))
 
 
 ## Wiring
