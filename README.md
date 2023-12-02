@@ -93,7 +93,7 @@ For this project, a substantial amount of wiring is required. It is highly recom
 | 7                 | A0               | GP16         |
 | 8                 | SDA              | GP11         |
 | 9                 | SCL              | GP10         |
-| 15                | LED              | 3.3V         |
+| 15                | LED +            | 3.3V         |
 
 ### OV7670 Module Connections
 
