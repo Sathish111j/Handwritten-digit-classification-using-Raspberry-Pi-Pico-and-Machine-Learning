@@ -90,6 +90,8 @@ For this project, a substantial amount of wiring is required. It is highly recom
 
 ### OV7670 Module Connections
 
+### OV7670 Module Connections
+
 | OV7670 Pin Name | Pi Pico Pin Name                    |
 |-----------------|------------------------------------|
 | D0              | GP0                                |
@@ -108,6 +110,8 @@ For this project, a substantial amount of wiring is required. It is highly recom
 | RESET           | GP14                               |
 | SCL             | GP21 (via 4.7k external pull-up resistor) |
 | SDA             | GP20 (via 4.7k external pull-up resistor) |
+| 3.3V            | GP36                               |
+| GND             | GND                                |
 
 
 ## Wrapping It Up
