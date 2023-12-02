@@ -7,6 +7,7 @@
   - [Required Software](#required-software)
   - [Installation and Setup](#installation-and-setup)
   - [Running and Debugging](#running-and-debugging)
+  - -[Raspberry Pi Pico Pin Diagram](#Raspberry-Pi-Pico-Pin-Diagram)
   - [Wiring](#wiring)
 
 # Creating a Handwritten Digit Classification System with Raspberry Pi Pico
@@ -71,12 +72,11 @@ To run and debug your code, follow these steps:
 
 Please note that you'll need to configure your IDE to work with your Raspberry Pi Pico for effective code development and debugging.
 
+
+
+## Raspberry Pi Pico Pin Diagram
+
 ![Raspberry Pi Pico Pin Diagram](picow-pinout.svg)
-
-
-
-
-
 
 ## Wiring
 
