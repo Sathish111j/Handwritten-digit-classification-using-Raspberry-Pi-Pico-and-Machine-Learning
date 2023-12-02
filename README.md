@@ -86,7 +86,7 @@ For this project, a substantial amount of wiring is required. It is highly recom
 
 | Display Pin Number | Display Pin Name | Pi Pico Pins |
 |-------------------|------------------|--------------|
-| 2                 | VCC              | 5V           |
+| 2                 | VCC              | 5V (VBUS)        |
 | 1                 | GND              | GND          |
 | 10                | CS               | GP18         |
 | 6                 | RESET            | GP17         |
