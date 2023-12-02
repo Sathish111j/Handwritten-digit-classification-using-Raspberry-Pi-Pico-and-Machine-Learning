@@ -1,6 +1,6 @@
 # Table of Contents
 
-- [Creating a Handwritten Digit Classification System with Raspberry Pi Pico](#creating-a-handwritten-digit-classification-system-with-raspberry-pi-pico)
+  -   [Creating a Handwritten Digit Classification System with Raspberry Pi Pico](#creating-a-handwritten-digit-classification-system-with-raspberry-pi-pico)
   - [Project Overview](#project-overview)
   - [Project Inspiration](#project-inspiration)
   - [Required Hardware](#required-hardware)
