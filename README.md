@@ -1,9 +1,11 @@
 # Creating a Handwritten Digit Classification System with Raspberry Pi Pico
 
 ## Project Overview
+
 In this project, we aim to develop a system that uses a Raspberry Pi Pico to run a machine learning model. This model will analyze images captured by an OV7670 camera module and predict the handwritten digit present in the image. The result will be displayed on a 128x160 TFT LCD screen. The entire process, from image capture to digit classification, will be self-contained on the Raspberry Pi Pico.
 
 ## Required Hardware
+
 1. **Raspberry Pi Pico**: This project is designed for the Raspberry Pi Pico, but it may work on other boards that support CircuitPython with some modifications. Ensure your board has sufficient GPIO pins, as almost 80% of the Pi Pico's GPIOs are used.
 
 2. **128x160 TFT LCD**: You'll need a compatible LCD display. Other displays may work with code adjustments, but an LCD is essential for practical alignment of handwritten digits with the camera's view.
@@ -17,6 +19,7 @@ In this project, we aim to develop a system that uses a Raspberry Pi Pico to run
 6. **4.7k ohm resistor (2)**: These resistors are part of the project's electronic setup.
 
 ## Required Software
+
 1. **Any text editor**: You'll need a text editor for editing the code if necessary.
 
 2. **A full Python distribution and pip**: These are required for training and exporting the machine learning model.
@@ -24,8 +27,6 @@ In this project, we aim to develop a system that uses a Raspberry Pi Pico to run
 3. **Patience**: Building and fine-tuning this system may require some patience.
 
 The project aims to display the classification results on the 128x160 TFT LCD, making it a practical and interactive solution. It leverages CircuitPython for its versatility, ensuring compatibility with various boards supporting CircuitPython.
-
-
 
 ## Installation and Setup
 
@@ -52,6 +53,7 @@ Please note that you'll need to configure your IDE to work with your Raspberry P
 ## Wiring
 
 For this project, a substantial amount of wiring is required. It is highly recommended to use breadboards and jumper cables for a clean and organized setup.
+
 ### LCD Connections
 
 | Display Pin Number | Display Pin Name | Pi Pico Pins |
@@ -64,7 +66,6 @@ For this project, a substantial amount of wiring is required. It is highly recom
 | 8                 | SDA              | GP11         |
 | 9                 | SCL              | GP10         |
 | 15                | LED              | 3.3V         |
-
 
 ### OV7670 Module Connections
 
