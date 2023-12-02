@@ -1,38 +1,30 @@
-# Building a Handwritten Digit Classification System with Raspberry Pi Pico, OV7670 Camera, TFT LCD Display, and Machine Learning
+# Creating a Handwritten Digit Classification System with Raspberry Pi Pico
 
-In this project, I'll guide you through the process of creating a handwritten digit classification system using a Raspberry Pi Pico, an OV7670 camera module, a 128x160 TFT LCD display, and machine learning techniques. Please keep in mind that this code is highly experimental, and even after following all the recommended steps in this article, some tinkering may still be necessary to get it to work. So, let's dive in and start exploring!
 ## Project Overview
+In this project, we aim to develop a system that uses a Raspberry Pi Pico to run a machine learning model. This model will analyze images captured by an OV7670 camera module and predict the handwritten digit present in the image. The result will be displayed on a 128x160 TFT LCD screen. The entire process, from image capture to digit classification, will be self-contained on the Raspberry Pi Pico.
 
-We intend to run a machine learning model on our Raspberry Pi Pico that analyzes photos received from a camera and tries to infer what digit was present in the image. An image of the project in action is shown below:
+## Required Hardware
+1. **Raspberry Pi Pico**: This project is designed for the Raspberry Pi Pico, but it may work on other boards that support CircuitPython with some modifications. Ensure your board has sufficient GPIO pins, as almost 80% of the Pi Pico's GPIOs are used.
 
-![Predicted value displayed on LCD](image_link_here)
+2. **128x160 TFT LCD**: You'll need a compatible LCD display. Other displays may work with code adjustments, but an LCD is essential for practical alignment of handwritten digits with the camera's view.
 
-It is important to note that our machine learning model can be executed entirely on a Raspberry Pi Pico; a connected computer or cloud are not required. Therefore, creating compact machine learning models that fit in Pi Pico’s RAM and are accurate enough for our work is a major challenge we are aiming to overcome. This is no easy task, and I will discuss this in more detail in a later part of this article.
+3. **OV7670 Camera Module**: This camera module is used for capturing images. It's an affordable option for this project.
 
+4. **Full-sized breadboard (highly recommended)**: A breadboard facilitates connections between components.
 
-### Required Hardware
+5. **Jumper Cables**: You'll need male-to-female (M-F) and male-to-male (M-M) jumper cables for making various connections.
 
-- Raspberry Pi Pico: This project has only been tested on the Raspberry Pi Pico. Hopefully, it won’t require any code modifications to run on the Raspberry Pi Pico W. As the code is written in CircuitPython, it is expected to work on most boards that support CircuitPython. Almost 80% of the GPIOs on the Pi Pico are used by the project, so make sure you have enough GPIOs on your board. You will need to change the code for the project to work with any other boards.
+6. **4.7k ohm resistor (2)**: These resistors are part of the project's electronic setup.
 
-- 128x160 TFT LCD: Similar to [this one](lcd_link_here). Other options might be workable but may call for code changes. Theoretically, an LCD might not even be necessary; data could be written to a serial console instead. But practically speaking, this project might be difficult to implement without an LCD. The placement of the camera and the subject has a significant impact on the output. With an LCD, it is easy to align your handwritten numbers with the camera as you can constantly see what your camera is seeing.
+## Required Software
+1. **Any text editor**: You'll need a text editor for editing the code if necessary.
 
-- OV7670 Camera Module: I purchased this for Rs. 155 (approx USD 2), can you believe it! Much cheaper than some color sensors!
+2. **A full Python distribution and pip**: These are required for training and exporting the machine learning model.
 
-- Full-sized breadboard (highly recommended)
+3. **Patience**: Building and fine-tuning this system may require some patience.
 
-- Jumper Cables: May 20 each of M-F and M-M. There are lots of connections to be made!
-- 4.7k ohm resistor (2)
+The project aims to display the classification results on the 128x160 TFT LCD, making it a practical and interactive solution. It leverages CircuitPython for its versatility, ensuring compatibility with various boards supporting CircuitPython.
 
-### Required Software
-
-- Any text editor for editing the code if you plan to make any changes.
-- A full Python distribution and pip for training and exporting the machine learning model.
-- And of course, lots of patience.
-
-
-We also want to show our results on an LCD screen. So, we use a 120x160 TFT LCD display to show the output to the user.
-
-Lastly, everything needs to be done using CircuitPython. In my personal opinion, CircuitPython is easy and fun to work with. The biggest advantage is that your code will work with a variety of 300+ boards supporting CircuitPython.
 
 
 ## Installation and Setup
