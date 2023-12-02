@@ -33,9 +33,7 @@ It is important to note that our machine learning model can be executed entirely
 We also want to show our results on an LCD screen. So, we use a 120x160 TFT LCD display to show the output to the user.
 
 Lastly, everything needs to be done using CircuitPython. In my personal opinion, CircuitPython is easy and fun to work with. The biggest advantage is that your code will work with a variety of 300+ boards supporting CircuitPython.
-## Wiring
 
-For this project, a substantial amount of wiring is required. It is highly recommended to use breadboards and jumper cables for a clean and organized setup.
 
 ## Installation and Setup
 
@@ -59,7 +57,9 @@ To run and debug your code, follow these steps:
 
 Please note that you'll need to configure your IDE to work with your Raspberry Pi Pico for effective code development and debugging.
 
+## Wiring
 
+For this project, a substantial amount of wiring is required. It is highly recommended to use breadboards and jumper cables for a clean and organized setup.
 ### LCD Connections
 
 | Display Pin Number | Display Pin Name | Pi Pico Pins |
