@@ -32,3 +32,15 @@ It is important to note that our machine learning model can be executed entirely
 We also want to show our results on an LCD screen. So, we use a 120x160 TFT LCD display to show the output to the user.
 
 Lastly, everything needs to be done using CircuitPython. In my personal opinion, CircuitPython is easy and fun to work with. The biggest advantage is that your code will work with a variety of 300+ boards supporting CircuitPython.
+
+| Display Pin Number | Display Pin Name | Pi Pico Pins |
+|-------------------|------------------|--------------|
+| 2                 | VCC              | 5V           |
+| 1                 | GND              | GND          |
+| 10                | CS               | GP18         |
+| 6                 | RESET            | GP17         |
+| 7                 | A0               | GP16         |
+| 8                 | SDA              | GP11         |
+| 9                 | SCL              | GP10         |
+| 15                | LED              | 3.3V         |
+
